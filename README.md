@@ -1,5 +1,5 @@
 # kmeans-beamtilt
-Beam tilt refinement by image shift groups in cryoSPARC for datasets acquired by the Leginon & Appion suite  
+Beam tilt refinement by image shift groups in cryoSPARC for datasets acquired with the Leginon & Appion suite  
 
 kmeans_groups.py reads the pre-prepared csv file with micrograph name and imageshift X & Y to group the micrographs based on their image shift groups.  
 
