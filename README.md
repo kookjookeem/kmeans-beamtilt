@@ -6,4 +6,4 @@ kmeans_groups.py reads the pre-prepared csv file with micrograph name and images
 The python script outputs numbered km_groups.csv, km_centers.csv, and km_plot.png files.  
 add_class.sh adds class identifier numbers to the symlinked micrographs.
 
-You can find the step by step guide in the repository wiki.  
+You can find the step by step guide in the repository wiki (https://github.com/kookjookeem/kmeans-beamtilt/wiki).  
