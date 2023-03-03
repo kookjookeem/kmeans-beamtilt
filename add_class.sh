@@ -3,6 +3,8 @@
 dir="mics"
 csvfile=""
 
+{
+read
 while IFS=',' read -r filename class
 do
   if [ -f "$dir/$filename" ]; then
@@ -11,4 +13,5 @@ do
   else
     echo "${filename} does not exist in $dir."
   fi
-done < $csvfile
+done
+}< $csvfile
