@@ -1,7 +1,7 @@
 #!/bin/bash
 # set micrograph directory and km_groups.csv paths
 dir="mics"
-csvfile="km_groups_02.csv"
+csvfile=""
 
 {
 read
