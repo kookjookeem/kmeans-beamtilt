@@ -11,7 +11,8 @@ Beam tilt refinement by image shift groups in cryoSPARC for datasets acquired wi
 - Usage: `add_class.sh -d DIRECTORY -i FILE`
 
 `assign_kmeans_exp_groups_pub.ipynb`
-- a Jupyter notebook to directly assign the exposure group IDs calculated by kmeans_group.py via [`cryosparc-tools`](https://tools.cryosparc.com/intro.html)
+- a Jupyter notebook to directly assign the exposure group IDs calculated with `kmeans_group.py` to particles via [`cryosparc-tools`](https://tools.cryosparc.com/intro.html)
+- requires `km_groups.csv` with micrograph names and exp group assignments
 
 K-means script by [Bill Rice](https://github.com/wjrice/tiltgroup_wrangler)  
 You can find the step by step guide in the repository [wiki](https://github.com/kookjookeem/kmeans-beamtilt/wiki).  
